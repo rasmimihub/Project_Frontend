@@ -5,13 +5,14 @@ import Shop from "./pages/Shop";
 import Cart from "./pages/Cart";
 import Search from "./pages/Search";
 function App() {
+  
   return (
     <Router>  
          <Navbar /> 
          <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
-            <Route path="/contact" element={<Search />} />
+            <Route path="/search" element={<Search />} />
             <Route path="/shop" element={<Shop />} />
          </Routes>
     </Router>

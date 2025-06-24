@@ -1,16 +1,7 @@
-.home-container {
-    padding: 5px;
-    background-color: blueviolet;
-    text-align: center;
-    height: fit-content;
-}
-
-.home-heading{
-    font-size: medium;
-    color:black;
-}
-img {
-    height: auto;
-    width: 100%;
-    border-radius: 100px;
+#small_banner {
+    background-color: purple;
+    color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
 }

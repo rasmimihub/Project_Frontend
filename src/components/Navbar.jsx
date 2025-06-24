@@ -2,8 +2,9 @@ import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
  
 function Navbar  ()  {
+    
     return (
-        <nav >
+        <nav  className='navbar'>
             <Link to="/"  style={{paddingRight: '100px', paddingLeft: '20px'}}>Home</Link>
             <Link to="/shop" style={{paddingRight: '100px'}}>Shop</Link>
             <Link to="/cart" style={{paddingRight: '60px'}}>Cart</Link>

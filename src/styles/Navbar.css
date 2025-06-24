@@ -1,6 +1,17 @@
-nav {
-    background: #cdc9a6d7;
-    padding: 20px;
-    margin: 0;
-    text-align: right;
+.navbar {
+  display: flex;
+  background-color: #938c91ef;
+  padding: 10px 20px;
+  align-items: center;
+  height: 70px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #0a0a0a;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #b733c8;
 }
